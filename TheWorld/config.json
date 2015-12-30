@@ -1,5 +1,8 @@
 {
   "AppSettings": {
-    "SiteEmailAddress":  "charlie@accountingcentral.com"
+    "SiteEmailAddress": "charlie@accountingcentral.com"
+  },
+  "Data": {
+    "WorldContextConnection": "Server=(LocalDB)\\MSSQLLocalDB;Database=TheWorldDB;Trusted_Connection=true;MultipleActiveResultSets=true;"
   }
-}
+} 
