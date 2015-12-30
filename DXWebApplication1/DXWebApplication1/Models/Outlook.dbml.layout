@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Outlook">
+  <DataContextMoniker Name="/OutlookDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d1290589-ec16-4ecb-afe1-820083142a56" absoluteBounds="2.875, 2, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/OutlookDataContext/Message" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7cc2fcc2-5fc9-4d73-b608-505cf7af85a6" absoluteBounds="2.89, 2.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e5b09f4-6708-45f2-9bf1-12aec615d5a5" absoluteBounds="0.5, 2.375, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/OutlookDataContext/Appointment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4a521c45-016a-4687-9bea-da43bd71e9a5" absoluteBounds="0.51500000000000012, 2.835, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3bc4ca40-29bc-43ff-8427-6fe0733c8b99" absoluteBounds="4.875, 5.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/OutlookDataContext/Resource" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1d266f79-99dc-4b1a-a77c-e45dc4b20357" absoluteBounds="4.89, 6.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
