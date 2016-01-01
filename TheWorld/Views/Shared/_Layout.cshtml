@@ -16,12 +16,20 @@
 </head>
 <body>
     <div id="sidebar">
+        @if (User.Identity.IsAuthenticated)
+        {
         <img class="headshot" src="~/images/poudre-river-rafting_210x180.jpg" alt="picture of user" />
-        <span id="username">Sam Hastings</span>
+        <span id="username">@User.Identity.Name</span>
+        }
         <ul class="nav">
             <li class="active"><a asp-controller="App" asp-action="index">Home</a></li>
             <li><a asp-controller="App" asp-action="about">About</a></li>
             <li><a asp-controller="App" asp-action="contact">Contact</a></li>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li><a asp-controller="App" asp-action="Trips">Trips</a></li>
+                <li><a asp-controller="Auth" asp-action="Logout">Logout</a></li>
+            }
         </ul>
     </div>
     <div id="wrapper">
