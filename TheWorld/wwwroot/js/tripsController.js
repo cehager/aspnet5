@@ -8,6 +8,7 @@
 
         vm.trips = [];
 
+        //vm.newTrip = {};
         vm.newTrip = {};
 
         vm.errorMessage = "";
@@ -20,7 +21,7 @@
             },
              function (error) {
                  //failure
-                 vm.errorMessage = "Failed to load data: " + error.statusText;
+                 vm.errorMessage = "Failed to load data, try again: " + error.statusText;
              })
             .finally(function () {
                 vm.isBusy = false;

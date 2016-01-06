@@ -28,11 +28,12 @@ namespace TheWorld.Models
                     Email = "sam.hastings@theworld.com"
                 };
 
-               IdentityResult r = await _userManager.CreateAsync(newUser, "cinnabun24");
-                
+               //IdentityResult r = await _userManager.CreateAsync(newUser, "password100");
+               IdentityResult r = await _userManager.CreateAsync(newUser, "password100");
+
             }
 
-           if (!_context.Trips.Any())
+            if (!_context.Trips.Any())
             {
                 //add new data
                 var usTrip = new Trip()
